@@ -24,17 +24,17 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859",
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 5242880,
-            "MD5": "4f4f8f5b6ed2ff13f5e63e3d3f9fa5e7",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859.jar"
+            "size": 4466108,
+            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
+            "url": "https://bmclapi2.bangbang93.com/maven/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-14.23.5.2859",
+              "id": "1.12.2-forge-14.23.5.2859",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
