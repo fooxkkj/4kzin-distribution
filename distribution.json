@@ -1,41 +1,46 @@
 {
-  "id": "4kzin-dist",
-  "name": "4Kzin Distribution",
   "version": "1.0.0",
   "servers": [
     {
       "id": "4kzin-server",
       "name": "Servidor 4Kzin",
       "description": "Servidor oficial do 4Kzin Launcher!",
-      "address": "26.193.254.44",
+      "host": "26.193.254.44",
       "port": 25565,
-      "default": true
+      "icon": null,
+      "autoConnect": true
     }
   ],
-  "instances": [
+  "modules": [
     {
       "id": "4kzin-modpack",
       "name": "4Kzin Modpack",
-      "version": "1.0.0",
-      "minecraftVersion": "1.12.2",
-      "server": "4kzin-server",
-      "description": "Modpack oficial do 4Kzin com tudo pronto pra jogar!",
-      "releaseTime": "2025-10-21T00:00:00Z",
       "type": "custom",
+      "version": "1.0.0",
+      "mcVersion": "1.12.2",
+      "description": "Modpack oficial do 4Kzin com tudo pronto pra jogar!",
+      "server": "4kzin-server",
       "mainClass": "net.minecraft.launchwrapper.Launch",
-      "assets": "legacy",
-      "libraries": [],
+      "order": 1,
+      "releaseTime": "2025-10-21T00:00:00Z",
+      "required": true,
       "files": [
         {
+          "id": "modpack",
+          "type": "file",
           "path": "4kzin_modpack.zip",
           "url": "https://seusite.com/4kzin_modpack.zip",
           "hash": "sha1:PLACEHOLDER_HASH_AQUI"
         }
       ],
-      "javaVersion": 8,
-      "mainServer": "4kzin-server"
+      "java": {
+        "version": 8,
+        "args": []
+      },
+      "libraries": [],
+      "assets": "legacy"
     }
   ],
-  "defaultInstanceId": "4kzin-modpack",
-  "defaultServerId": "4kzin-server"
+  "mainServer": "4kzin-server",
+  "mainModule": "4kzin-modpack"
 }
