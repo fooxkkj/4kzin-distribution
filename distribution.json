@@ -2,23 +2,23 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "servers": [
-    {
-      "id": "4kzin-1.12.2",
-      "name": "4kzin (Minecraft 1.12.2)",
-      "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-      "icon": "https://cdn.discordapp.com/attachments/1234567890/1234567890/4kzin_logo.png",
-      "version": "1.0.0",
-      "address": "26.193.254.44:25565",
-      "minecraftVersion": "1.12.2",
+  {
+    "id": "4kzin-1.12.2",
+    "name": "4kzin (Minecraft 1.12.2)",
+    "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
+    "icon": "https://cdn.discordapp.com/attachments/1234567890/1234567890/4kzin_logo.png",
+    "version": "1.0.0",
+    "address": "26.193.254.44:25565",
+    "minecraftVersion": "1.12.2",
 
-      "discord": {
-        "clientId": "1430314818786693120",
-        "shortId": "4kzin",
-        "smallImageKey": "minecraft",
-        "smallImageText": "4Kzin Launcher",
-        "largeImageKey": "large",
-        "largeImageText": "4Kzin Servidor Oficial"
-      },
+    "discord": {
+      "clientId": "1430314818786693120",
+      "shortId": "4kzin",
+      "smallImageKey": "minecraft",
+      "smallImageText": "4Kzin Launcher",
+      "largeImageKey": "large",
+      "largeImageText": "4Kzin Servidor Oficial"
+    },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
@@ -788,6 +788,7 @@
     }
   ]
 }
+
 
 
 
