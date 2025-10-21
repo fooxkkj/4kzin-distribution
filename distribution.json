@@ -1,11 +1,6 @@
 {
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "699169923615686728",
-    "smallImageText": "4Kzin Launcher",
-    "smallImageKey": "minecraft"
-  },
   "servers": [
     {
       "id": "4kzin-1.12.2",
@@ -15,10 +10,14 @@
       "version": "1.0.0",
       "address": "26.193.254.44:25565",
       "minecraftVersion": "1.12.2",
+
       "discord": {
+        "clientId": "1430314818786693120",
         "shortId": "4kzin",
-        "largeImageText": "4Kzin Launcher — Servidor 1.12.2",
-        "largeImageKey": "large"
+        "smallImageKey": "minecraft",
+        "smallImageText": "4Kzin Launcher",
+        "largeImageKey": "large",
+        "largeImageText": "4Kzin Servidor Oficial"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -789,6 +788,7 @@
     }
   ]
 }
+
 
 
 
