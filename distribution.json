@@ -30,7 +30,7 @@
           "artifact": {
             "size": 4466108,
             "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
-            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
           },
           "subModules": [
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 12345,
                 "MD5": "1959bb357e54a9666dd80d744b524639",
-                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
+                "url": "https://bmclapi2.bangbang93.com/mirrors/forge/1.12.2-14.23.5.2859/1.12.2-14.23.5.2859.json"
               }
             }
           ]
@@ -60,3 +60,4 @@
     }
   ]
 }
+
