@@ -44,6 +44,32 @@
               }
             }
           ]
+        },
+        {
+          "id": "4kzin-modpack",
+          "name": "4Kzin Modpack",
+          "type": "custom",
+          "version": "1.0.0",
+          "minecraftVersion": "1.12.2",
+          "description": "Modpack oficial do 4Kzin, com tudo pronto pra jogar!",
+          "releaseTime": "2025-10-21T00:00:00Z",
+          "order": 0,
+          "required": true,
+          "files": [
+            {
+              "id": "modpack",
+              "type": "file",
+              "path": "4kzin_modpack.zip",
+              "url": "https://download1587.mediafire.com/zv0pntsljvtg4zKuIPbEbhV-y18KTuO-lHt4dcziAounly8cd0VHXw8v-jRxZ1kWGOmtO50OmlBXay2KOkrEJhEFXI2rNg77OYL5rPwB5vlFvUBFtvHFAT1vBmAYB74Sdz6LyDBLlej5UBXgVAWQIJvdtKu2qzCrbjcmqVOyfJAOjQ/37r0hioa7kouhpl/4kzin_modpack.zip",
+              "hash": "sha1:da4b6c73b26e5e3b1310bdad1e11c384b772bec3"
+            }
+          ],
+          "java": {
+            "version": 8,
+            "args": []
+          },
+          "libraries": [],
+          "assets": "legacy"
         }
       ]
     }
