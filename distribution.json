@@ -1,55 +1,51 @@
 {
-    "version": "1.0.0",
-    "discord": {
-        "clientId": "123456789012345678", 
-        "smallImageText": "4Kzin Launcher",
-        "smallImageKey": "seal-circle"
-    },
-    "rss": "https://example.com/rss", 
-    "servers": [
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "123456789012345678",
+    "smallImageText": "4Kzin Launcher",
+    "smallImageKey": "seal-circle"
+  },
+  "rss": "https://example.com/rss",
+  "servers": [
+    {
+      "id": "4kzin-server",
+      "name": "Servidor 4Kzin",
+      "description": "Servidor oficial do 4Kzin Launcher!",
+      "icon": "https://raw.githubusercontent.com/fooxkkj/4kzin-distribution/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "26.193.254.44:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "4Kzin",
+        "largeImageText": "Servidor 4Kzin",
+        "largeImageKey": "server-4kzin"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
         {
-            "id": "4kzin-server",
-            "name": "Servidor 4Kzin",
-            "description": "Servidor oficial do 4Kzin Launcher!",
-            "icon": "https://raw.githubusercontent.com/fooxkkj/4kzin-distribution/main/server-icon.png",
-            "version": "1.0.0",
-            "address": "26.193.254.44:25565",
-            "minecraftVersion": "1.12.2",
-            "discord": {
-                "shortId": "4Kzin",
-                "largeImageText": "Servidor 4Kzin",
-                "largeImageKey": "server-4kzin"
-            },
-            "mainServer": true,
-            "autoconnect": true,
-            "modules": [
-                {
-                    "id": "4kzin-modpack",
-                    "name": "4Kzin Modpack",
-                    "type": "custom",
-                    "version": "1.0.0",
-                    "minecraftVersion": "1.12.2",
-                    "description": "Modpack oficial do 4Kzin, com tudo pronto pra jogar!",
-                    "releaseTime": "2025-10-21T00:00:00Z",
-                    "order": 0,
-                    "required": true,
-                    "files": [
-                        {
-                            "id": "modpack",
-                            "type": "file",
-                            "path": "4kzin_modpack.zip",
-                            "url": "https://seusite.com/4kzin_modpack.zip",
-                            "hash": "sha1:PLACEHOLDER_HASH_AQUI"
-                        }
-                    ],
-                    "java": {
-                        "version": 8,
-                        "args": []
-                    },
-                    "libraries": [],
-                    "assets": "legacy"
-                }
-            ]
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466108,
+            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
+            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2859",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 12345,
+                "MD5": "1959bb357e54a9666dd80d744b524639",
+                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
