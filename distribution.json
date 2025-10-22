@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://raw.githubusercontent.com/fooxkkj/4kzin-distribution/refs/heads/main/feed.xml",
+  "rss": "https://raw.githubusercontent.com/fooxkkj/4kzin-distribution/main/feed.xml",
   "servers": [
   {
     "id": "4kzin-1.12.2",
@@ -788,6 +788,7 @@
     }
   ]
 }
+
 
 
 
