@@ -1,23 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     version="2.0">
   <channel>
-    <title>4K Launcher - Notícias</title>
+    <title>4K Launcher</title>
     <link>https://github.com/fooxkkj/4klauncher-updates</link>
-    <description>Atualizações e novidades do 4K Launcher</description>
-    <language>pt-BR</language>
 
+    <!-- 🚀 Lançamento -->
     <item>
-      <title>🚀 Lançamento Oficial do 4K Launcher</title>
-      <link>https://github.com/fooxkkj/4klauncher-updates</link>
-      <pubDate>Wed, 23 Oct 2025 00:00:00 GMT</pubDate>
-      <description>Lançamos o nosso launcher oficial! Agora com atualizações automáticas e integração com Discord. Experimente o novo visual e a praticidade do 4K Launcher.</description>
+      <title>🚀 Lançamento Oficial do 4K Launcher!</title>
+      <content:encoded>
+        <![CDATA[
+          <p style="font-size:14px; line-height:1.5;">
+            Bem-vindo ao <b>4K Launcher</b> — nosso launcher oficial totalmente personalizado!<br><br>
+            Agora você conta com:
+          </p>
+          <ul>
+            <li>⚡ Atualizações automáticas</li>
+            <li>💬 Integração com Discord RPC</li>
+            <li>🎨 Visual moderno e otimizado</li>
+          </ul>
+          <p>
+            Baixe, jogue e aproveite a nova experiência 4K! 🔥
+          </p>
+        ]]>
+      </content:encoded>
+      <dc:creator>Equipe 4K</dc:creator>
+      <pubDate>22 Oct 2025 23:00:00</pubDate>
+      <slash:comments>0</slash:comments>
     </item>
 
+    <!-- 🔧 Atualização técnica -->
     <item>
-      <title>🔧 Atualização do Servidor: Remoção de Texture Pack</title>
-      <link>https://github.com/fooxkkj/4klauncher-updates/releases</link>
-      <pubDate>Wed, 23 Oct 2025 00:00:00 GMT</pubDate>
-      <description>O pacote IR American Railroad Construction Pack foi removido. Os recursos agora estão integrados diretamente no servidor — menos downloads e mais desempenho.</description>
+      <title>🔧 Atualização do Servidor - Remoção de Texture Pack</title>
+      <content:encoded>
+        <![CDATA[
+          <p style="font-size:14px; line-height:1.5;">
+            O pacote <b>IR American Railroad Construction Pack</b> foi removido do servidor.<br>
+            Agora os recursos são carregados automaticamente, sem precisar do texture pack.
+          </p>
+          <ul>
+            <li>✅ Menos downloads</li>
+            <li>🚀 Carregamento mais rápido</li>
+            <li>🧱 Desempenho aprimorado</li>
+          </ul>
+          <p>
+            Não é mais necessário manter o pack instalado — o servidor já está atualizado!
+          </p>
+        ]]>
+      </content:encoded>
+      <dc:creator>Equipe 4K</dc:creator>
+      <pubDate>22 Oct 2025 22:00:00</pubDate>
+      <slash:comments>0</slash:comments>
     </item>
 
   </channel>
