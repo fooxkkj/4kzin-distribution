@@ -6,7 +6,7 @@
     "id": "4kzin-1.12.2",
     "name": "4kzin (Minecraft 1.12.2)",
     "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-    "icon": "https://cdn.discordapp.com/attachments/1234567890/1234567890/4kzin_logo.png",
+    "icon": "https://i.imgur.com/JaCYXZR.png",
     "version": "1.0.0",
     "address": "26.193.254.44:25565",
     "minecraftVersion": "1.12.2",
@@ -788,6 +788,7 @@
     }
   ]
 }
+
 
 
 
