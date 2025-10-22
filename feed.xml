@@ -6,29 +6,18 @@
     <description>Atualizações e novidades do 4K Launcher</description>
     <language>pt-BR</language>
 
-    <!-- 🟢 NOTÍCIA PRINCIPAL -->
     <item>
       <title>🚀 Lançamento oficial do 4K Launcher!</title>
       <link>https://github.com/fooxkkj/4klauncher-updates</link>
       <pubDate>Tue, 22 Oct 2025 23:00:00 GMT</pubDate>
-      <description><![CDATA[
-        É com orgulho que anunciamos o lançamento do nosso <b>Launcher Oficial - 4K Launcher!</b><br><br>
-        Agora todos os jogadores podem acessar o servidor com mais praticidade, atualizações automáticas e integração completa com Discord Rich Presence.<br><br>
-        <i>Baixe, jogue e acompanhe as novidades diretamente do launcher!</i> 💻🔥
-      ]]></description>
+      <description>Nosso launcher oficial foi lançado! Atualizações automáticas e integração com o Discord já disponíveis.</description>
     </item>
 
-    <!-- ⚙️ LOG DE ATUALIZAÇÃO -->
     <item>
-      <title>🔧 Atualização: Remoção do Texture Pack IR American Railroad Construction Pack</title>
+      <title>🔧 Atualização: Removido o Texture Pack IR American Railroad Construction Pack</title>
       <link>https://github.com/fooxkkj/4klauncher-updates/releases</link>
       <pubDate>Tue, 22 Oct 2025 22:00:00 GMT</pubDate>
-      <description><![CDATA[
-        Na última atualização do servidor, o pacote de texturas <b>IR American Railroad Construction Pack</b> foi <b>removido</b>.<br><br>
-        O conteúdo anteriormente incluso foi incorporado diretamente no servidor, então <b>não é mais necessário manter o resource pack instalado manualmente</b>.<br><br>
-        Isso reduz o tempo de carregamento e melhora o desempenho geral. 🚄💨
-      ]]></description>
+      <description>O pacote IR American Railroad Construction Pack foi removido. Agora o servidor já inclui os recursos automaticamente.</description>
     </item>
-
   </channel>
 </rss>
