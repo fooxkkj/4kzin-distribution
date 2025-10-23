@@ -19,6 +19,9 @@
       "largeImageKey": "large",
       "largeImageText": "4Kzin Servidor Oficial"
     },
+      "authlibInjector": false,
+      "authServer": null,
+      "serverAuth": ["mojang", "microsoft", "offline"],
       "mainServer": false,
       "autoconnect": false,
       "modules": [
@@ -788,6 +791,7 @@
     }
   ]
 }
+
 
 
 
