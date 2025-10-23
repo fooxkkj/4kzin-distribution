@@ -5,32 +5,29 @@
      version="2.0">
   <channel>
     <title>4K Launcher</title>
-    <link>https://github.com/fooxkkj/4klauncher-updates</link>
+    <link>https://fooxkkj.github.io/4kzin-distribution</link>
 
-    <!-- 🆕 Atualização 1.1.0 -->
+    <!-- 🎯 Atualização 1.1.1 -->
     <item>
-      <title>🆕 Versão 1.1.0 - Contas Não Oficiais Agora Suportadas!</title>
+      <title>🎯 Atualização 1.1.1 - Mais liberdade e estabilidade!</title>
       <content:encoded>
         <![CDATA[
-          <p style="font-size:14px; line-height:1.5;">
-            A nova versão <b>1.1.0</b> do <b>4K Launcher</b> chegou com uma grande novidade:
+          <p style="font-size:14px; line-height:1.6;">
+            A nova versão <b>1.1.1</b> do <b>4K Launcher</b> traz mais liberdade, praticidade e desempenho para todos os jogadores! ⚡
           </p>
           <ul>
-            <li>🧩 Agora é possível usar <b>contas não oficiais (offline)</b>!</li>
-            <li>⚙️ Compatível com servidores que aceitam jogadores sem conta original.</li>
-            <li>💾 As contas offline são salvas localmente e podem ser usadas a qualquer momento.</li>
-            <li>🚀 Sistema de login totalmente reformulado e mais rápido.</li>
+            <li>🆓 Agora você pode <b>criar e alternar entre contas offline</b> direto nas configurações.</li>
+            <li>🚀 Inicialização mais rápida e interface mais fluida.</li>
+            <li>🎨 Ajustes visuais para uma navegação mais agradável.</li>
+            <li>🔧 Melhorias gerais de estabilidade e desempenho.</li>
           </ul>
           <p>
-            Para entrar com uma conta não oficial, basta clicar em <b>"Entrar Offline"</b> na tela de login.
-          </p>
-          <p>
-            Essa atualização torna o launcher ainda mais acessível e prático para todos os jogadores! 🎮
+            Essa atualização marca o início de uma nova fase do <b>4K Launcher</b> — mais leve, flexível e pronto para qualquer jogador! 💙
           </p>
         ]]>
       </content:encoded>
       <dc:creator>Equipe 4K</dc:creator>
-      <pubDate>23 Oct 2025 15:00:00</pubDate>
+      <pubDate>23 Oct 2025 18:10:00</pubDate>
       <slash:comments>0</slash:comments>
     </item>
 
