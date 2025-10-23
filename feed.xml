@@ -7,51 +7,30 @@
     <title>4K Launcher</title>
     <link>https://github.com/fooxkkj/4klauncher-updates</link>
 
-    <!-- 🚀 Lançamento -->
+    <!-- 🆕 Atualização 1.1.0 -->
     <item>
-      <title>🚀 Lançamento Oficial do 4K Launcher!</title>
+      <title>🆕 Versão 1.1.0 - Contas Não Oficiais Agora Suportadas!</title>
       <content:encoded>
         <![CDATA[
           <p style="font-size:14px; line-height:1.5;">
-            Bem-vindo ao <b>4K Launcher</b> — nosso launcher oficial totalmente personalizado!<br><br>
-            Agora você conta com:
+            A nova versão <b>1.1.0</b> do <b>4K Launcher</b> chegou com uma grande novidade:
           </p>
           <ul>
-            <li>⚡ Atualizações automáticas</li>
-            <li>💬 Integração com Discord RPC</li>
-            <li>🎨 Visual moderno e otimizado</li>
+            <li>🧩 Agora é possível usar <b>contas não oficiais (offline)</b>!</li>
+            <li>⚙️ Compatível com servidores que aceitam jogadores sem conta original.</li>
+            <li>💾 As contas offline são salvas localmente e podem ser usadas a qualquer momento.</li>
+            <li>🚀 Sistema de login totalmente reformulado e mais rápido.</li>
           </ul>
           <p>
-            Baixe, jogue e aproveite a nova experiência 4K! 🔥
+            Para entrar com uma conta não oficial, basta clicar em <b>"Entrar Offline"</b> na tela de login.
+          </p>
+          <p>
+            Essa atualização torna o launcher ainda mais acessível e prático para todos os jogadores! 🎮
           </p>
         ]]>
       </content:encoded>
       <dc:creator>Equipe 4K</dc:creator>
-      <pubDate>22 Oct 2025 23:00:00</pubDate>
-      <slash:comments>0</slash:comments>
-    </item>
-
-    <!-- 🔧 Atualização técnica -->
-    <item>
-      <title>🔧 Atualização do Servidor - Remoção de Texture Pack</title>
-      <content:encoded>
-        <![CDATA[
-          <p style="font-size:14px; line-height:1.5;">
-            O pacote <b>IR American Railroad Construction Pack</b> foi removido do servidor.<br>
-            Agora os recursos são carregados automaticamente, sem precisar do texture pack.
-          </p>
-          <ul>
-            <li>✅ Menos downloads</li>
-            <li>🚀 Carregamento mais rápido</li>
-            <li>🧱 Desempenho aprimorado</li>
-          </ul>
-          <p>
-            Não é mais necessário manter o pack instalado — o servidor já está atualizado!
-          </p>
-        ]]>
-      </content:encoded>
-      <dc:creator>Equipe 4K</dc:creator>
-      <pubDate>22 Oct 2025 22:00:00</pubDate>
+      <pubDate>23 Oct 2025 15:00:00</pubDate>
       <slash:comments>0</slash:comments>
     </item>
 
