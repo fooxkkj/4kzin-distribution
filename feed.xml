@@ -7,29 +7,30 @@
     <title>4K Launcher</title>
     <link>https://fooxkkj.github.io/4kzin-distribution</link>
 
-    <!-- ⚙️ Atualização 1.1.3 -->
+    <!-- ⚙️ Atualização 1.1.4 -->
     <item>
-      <title>⚙️ Atualização 1.1.3 - Correções e melhorias no sistema offline!</title>
+      <title>⚙️ Atualização 1.1.4 - Login da Microsoft e Mojang totalmente funcional!</title>
       <content:encoded>
         <![CDATA[
           <p style="font-size:14px; line-height:1.6;">
-            A versão <b>1.1.3</b> do <b>4K Launcher</b> traz importantes <b>correções e otimizações</b> no sistema de contas offline, além de melhorias gerais de estabilidade e desempenho. 💪
+            A versão <b>1.1.4</b> do <b>4K Launcher</b> marca uma grande melhoria na área de autenticação, com <b>todos os sistemas de login</b> agora funcionando perfeitamente. 🧠
           </p>
           <ul>
-            <li>🧩 Corrigido erro que exibia mensagem de falha ao criar conta offline — agora o processo é 100% funcional.</li>
-            <li>⚡ Sistema de login offline aprimorado: criação, salvamento e seleção de conta ocorrem de forma instantânea e confiável.</li>
-            <li>🔐 Adicionada proteção contra erros ao deslogar quando nenhuma conta está ativa.</li>
-            <li>🚀 Melhor desempenho nas transições e carregamento entre telas.</li>
-            <li>🧠 Salvamento reforçado das configurações, evitando perda de dados em encerramentos inesperados.</li>
-            <li>🧼 Console limpo: mensagens desnecessárias foram removidas para uma inicialização mais suave.</li>
+            <li>✅ <b>Correção completa no sistema de login:</b> os botões da <b>Microsoft</b> e da <b>Mojang</b> voltam a responder corretamente, abrindo suas respectivas telas de autenticação.</li>
+            <li>⚙️ Ajustado o gerenciamento interno de views, corrigindo erro que impedia a abertura das janelas de login.</li>
+            <li>🧩 Adicionada verificação automática para evitar falhas quando variáveis globais não são carregadas pelo sistema.</li>
+            <li>💬 Implementado fallback local para o objeto <code>VIEWS</code>, garantindo compatibilidade com builds personalizados do launcher.</li>
+            <li>🧠 O modo <b>Offline</b> permanece totalmente funcional, com criação e salvamento de contas imediatos.</li>
+            <li>🔒 Apesar de o login da Mojang ainda existir por compatibilidade, o método <b>Microsoft</b> é agora o principal — refletindo as mudanças oficiais após a aquisição da Mojang pela Microsoft.</li>
+            <li>🚀 Melhor estabilidade geral nas transições entre telas e inicialização do launcher.</li>
           </ul>
           <p>
-            Esta atualização deixa o launcher mais <b>estável, seguro e fluido</b>, garantindo uma experiência sem erros e pronta para futuras novidades! 💙
+            Esta atualização consolida o sistema de login do <b>4K Launcher</b>, tornando-o mais <b>robusto, rápido e preparado para futuras integrações</b>. 💙
           </p>
         ]]>
       </content:encoded>
       <dc:creator>Equipe 4K</dc:creator>
-      <pubDate>23 Oct 2025 19:35:00</pubDate>
+      <pubDate>24 Oct 2025 16:30:00</pubDate>
       <slash:comments>0</slash:comments>
     </item>
 
