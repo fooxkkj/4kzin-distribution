@@ -19,7 +19,6 @@
             <li>✅ <b>Correção completa no sistema de login:</b> os botões da <b>Microsoft</b> e da <b>Mojang</b> voltam a responder corretamente, abrindo suas respectivas telas de autenticação.</li>
             <li>⚙️ Ajustado o gerenciamento interno de views, corrigindo erro que impedia a abertura das janelas de login.</li>
             <li>🧩 Adicionada verificação automática para evitar falhas quando variáveis globais não são carregadas pelo sistema.</li>
-            <li>💬 Implementado fallback local para o objeto <code>VIEWS</code>, garantindo compatibilidade com builds personalizados do launcher.</li>
             <li>🧠 O modo <b>Offline</b> permanece totalmente funcional, com criação e salvamento de contas imediatos.</li>
             <li>🔒 Apesar de o login da Mojang ainda existir por compatibilidade, o método <b>Microsoft</b> é agora o principal — refletindo as mudanças oficiais após a aquisição da Mojang pela Microsoft.</li>
             <li>🚀 Melhor estabilidade geral nas transições entre telas e inicialização do launcher.</li>
@@ -36,3 +35,4 @@
 
   </channel>
 </rss>
+
