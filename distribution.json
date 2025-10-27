@@ -758,13 +758,13 @@
           }
         },
         {
-          "id": "com.sk89q:worldedit:6.1.6-SNAPSHOT;e34fc1a@jar",
-          "name": "WorldEdit",
+          "id": "com.sk89q:worldedit:6.1.8@jar",
+          "name": "WorldEdit (Forge 1.12.2)",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1467635,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/worldedit-forge-mc1.11-6.1.6-dist.jar",
-            "MD5": "9c578129e0f64eb248baf41b132876da"
+            "size": 1465104,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/worldedit-forge-mc1.12-6.1.8-dist.jar",
+            "MD5": "f7aebc9ec16e6a78f3f6db06f55c773d"
           }
         },
         {
@@ -791,6 +791,7 @@
     }
   ]
 }
+
 
 
 
