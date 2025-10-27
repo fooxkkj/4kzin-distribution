@@ -785,24 +785,28 @@
             "size": 11782,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/zenny3d.saturationoverflow-1.1.1.jar",
             "MD5": "713ac2882f4b59c3e33eeee7c7db16be"
-          },
-          {
-            "id": "invtweaks:inventorytweaks:1.63@jar",
-            "name": "Inventory Tweaks",
-            "type": "ForgeMod",
-            "artifact": {
-              "size": 257224,
-              "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/optionalon/inventorytweaks-1.63.jar",
-              "MD5": "6a5f67b8e8949e267deef9e5e0e331e1"
-            },
-            "description": "Organiza automaticamente o inventário e baús com um duplo clique ou atalho. Mod apenas cliente, totalmente compatível com servidores."
           }
 
+        }
+      ],
+
+    "optionalOn": [
+        {
+          "id": "invtweaks:inventorytweaks:1.63@jar",
+          "name": "Inventory Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 257224,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/optionalon/inventorytweaks-1.63.jar",
+            "MD5": "6a5f67b8e8949e267deef9e5e0e331e1"
+          },
+          "description": "⚙️ Organiza automaticamente o inventário e baús com duplo clique ou atalho. Mod apenas cliente, totalmente compatível com servidores."
         }
       ]
     }
   ]
 }
+    
 
 
 
