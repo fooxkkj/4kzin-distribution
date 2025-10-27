@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "rss": "https://fooxkkj.github.io/4kzin-distribution/feed.xml",
   "servers": [
   {
@@ -803,6 +803,7 @@
     }
   ]
 }
+
 
 
 
