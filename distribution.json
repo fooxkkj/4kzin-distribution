@@ -23,7 +23,7 @@
       "authServer": null,
       "serverAuth": ["mojang", "microsoft", "offline"],
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
@@ -801,6 +801,7 @@
     }
   ]
 }
+
 
 
 
