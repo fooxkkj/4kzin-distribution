@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
+  "rss": "https://fooxkkj.github.io/4kzin-distribution/feed.xml",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -386,6 +386,16 @@
           }
         },
         {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
           "id": "atomicstryker.dynamiclights.client:DynamicLights:1.4.9@jar",
           "name": "Dynamic Lights",
           "type": "ForgeMod",
@@ -653,6 +663,16 @@
             "size": 31802,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/RedstoneFlux-1.12-2.1.1.1-universal.jar",
             "MD5": "93b1715f05be1878da93fca36dd37f2a"
+          }
+        },
+        {
+          "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16612,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
+            "MD5": "51141e882f96ce756b9b3d25f2acdf57"
           }
         },
         {
