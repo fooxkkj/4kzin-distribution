@@ -832,7 +832,7 @@
           "artifact": {
             "size": 2391,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "0d25aca7ed4ababac057366d3a05c0c1",
+            "MD5": "C119253882CCFEB79470714C51C04783",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
@@ -928,3 +928,4 @@
     }
   ]
 }
+
