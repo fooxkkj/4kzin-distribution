@@ -1,28 +1,36 @@
 {
-  "version": "1.0.1",
-  "rss": "https://fooxkkj.github.io/4kzin-distribution/feed.xml",
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
   "servers": [
-  {
-    "id": "4kzin-1.12.2",
-    "name": "4kzin (Minecraft 1.12.2)",
-    "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-    "icon": "https://i.imgur.com/JaCYXZR.png",
-    "version": "1.0.0",
-    "address": "26.193.254.44:25565",
-    "minecraftVersion": "1.12.2",
-
-    "discord": {
-      "clientId": "1430314818786693120",
-      "shortId": "4kzin",
-      "smallImageKey": "minecraft",
-      "smallImageText": "4Kzin Launcher",
-      "largeImageKey": "large",
-      "largeImageText": "4Kzin Servidor Oficial"
-    },
-      "authlibInjector": false,
-      "authServer": null,
-      "serverAuth": ["mojang", "microsoft", "offline"],
-      "mainServer": true,
+      {
+        "id": "4kzin-1.12.2",
+        "name": "4kzin (Minecraft 1.12.2)",
+        "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
+        "icon": "https://i.imgur.com/JaCYXZR.png",
+        "version": "1.0.0",
+        "address": "26.193.254.44:25565",
+        "minecraftVersion": "1.12.2",
+        "discord": {
+          "clientId": "1430314818786693120",
+          "shortId": "4kzin",
+          "smallImageKey": "minecraft",
+          "smallImageText": "4Kzin Launcher",
+          "largeImageKey": "large",
+          "largeImageText": "4Kzin Servidor Oficial"
+        },
+        "authlibInjector": false,
+        "authServer": null,
+        "serverAuth": [
+          "mojang",
+          "microsoft",
+          "offline"
+        ],
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -508,6 +516,16 @@
           }
         },
         {
+          "id": "invtweaks:inventorytweaks:1.63+release.109.220f184@jar",
+          "name": "Inventory Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 263258,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/InventoryTweaks-1.63.jar",
+            "MD5": "1e2e33e5710394252abc4b014bc3dcbd"
+          }
+        },
+        {
           "id": "cpw.mods:ironchest:0.0.0@jar",
           "name": "Iron Chests",
           "type": "ForgeMod",
@@ -758,13 +776,13 @@
           }
         },
         {
-          "id": "com.sk89q:worldedit:6.1.8@jar",
-          "name": "WorldEdit (Forge 1.12.2)",
+          "id": "com.sk89q:worldedit:6.1.8-SNAPSHOT;cd4729f@jar",
+          "name": "WorldEdit",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1465104,
+            "size": 1470354,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/worldedit-forge-mc1.12-6.1.8-dist.jar",
-            "MD5": "f7aebc9ec16e6a78f3f6db06f55c773d"
+            "MD5": "73ecbb8656a5fd5823852078f0fb7ca7"
           }
         },
         {
@@ -787,36 +805,106 @@
             "MD5": "713ac2882f4b59c3e33eeee7c7db16be"
           }
         },
-          {
-          "id": "invtweaks:inventorytweaks:1.63@jar",
-          "name": "Inventory Tweaks",
-          "type": "ForgeMod",
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
           "artifact": {
-            "size": 257224,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/inventorytweaks-1.63.jar",
-            "MD5": "6a5f67b8e8949e267deef9e5e0e331e1"
+            "size": 2391,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/config/CustomMainMenu/mainmenu.json",
+            "MD5": "0d25aca7ed4ababac057366d3a05c0c1",
+            "path": "config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
+          "id": "back.png",
+          "name": "back.png",
+          "type": "File",
+          "artifact": {
+            "size": 2083475,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/resources/4kzin/textures/gui/back.png",
+            "MD5": "c2e192f995074c260fc9ae3725cbcddd",
+            "path": "resources/4kzin/textures/gui/back.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 9733,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/resources/4kzin/textures/gui/logo.png",
+            "MD5": "34d70b88e9594f55d4be8cb1cd8c4005",
+            "path": "resources/4kzin/textures/gui/logo.png"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2403370,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/resources/4kzin/textures/gui/panorama_0.png",
+            "MD5": "a7bbefee4d47f8fa190e9cdcda589c52",
+            "path": "resources/4kzin/textures/gui/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1999478,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/resources/4kzin/textures/gui/panorama_1.png",
+            "MD5": "41e1c02c18aef2a7abb7b49b14f240ac",
+            "path": "resources/4kzin/textures/gui/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 2012159,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/resources/4kzin/textures/gui/panorama_2.png",
+            "MD5": "cb4bc1a0281846302036878d180c1c24",
+            "path": "resources/4kzin/textures/gui/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 2575969,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/resources/4kzin/textures/gui/panorama_3.png",
+            "MD5": "6dc17aba97159a7ad279868d2baf6b0a",
+            "path": "resources/4kzin/textures/gui/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 1598766,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/resources/4kzin/textures/gui/panorama_4.png",
+            "MD5": "45b68474e78e89ca75b3f62e551020ac",
+            "path": "resources/4kzin/textures/gui/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 2507827,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/resources/4kzin/textures/gui/panorama_5.png",
+            "MD5": "b3e13f0185e86fd825508a16cd8b623f",
+            "path": "resources/4kzin/textures/gui/panorama_5.png"
           }
         }
       ]
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
