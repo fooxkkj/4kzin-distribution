@@ -830,9 +830,9 @@
           "name": "mainmenu.json",
           "type": "File",
           "artifact": {
-            "size": 2391,
+            "size": 2389,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "C119253882CCFEB79470714C51C04783",
+            "MD5": "a43abaace90fd51efb69c194cf2e5b96",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
@@ -928,4 +928,5 @@
     }
   ]
 }
+
 
