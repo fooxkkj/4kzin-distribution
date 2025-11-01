@@ -13,7 +13,7 @@
       "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
       "icon": null,
       "version": "1.0.0",
-      "address": "26.193.254.44:25565",
+      "address": "4kzin.elgaehost.com.br",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -236,6 +236,16 @@
           ]
         },
         {
+          "id": "zone.rong.mixinbooter:mixinbooter:10.7@jar",
+          "name": "MixinBooter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2383999,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/!mixinbooter-10.7.jar",
+            "MD5": "a3221aff1677d5c4192efc43452bf37a"
+          }
+        },
+        {
           "id": "com.chocohead.advsolar:advanced_solar_panels:4.2.0@jar",
           "name": "Advanced Solar Panels",
           "type": "ForgeMod",
@@ -276,16 +286,6 @@
           }
         },
         {
-          "id": "com.teammetallurgy:atum:2.0.20@jar",
-          "name": "Atum2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2683652,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/Atum-1.12.2-2.0.20.jar",
-            "MD5": "05fa59d258e4ab62fe06081f10433162"
-          }
-        },
-        {
           "id": "baubles:baubles:1.12-1.5.2@jar",
           "name": "Baubles",
           "type": "ForgeMod",
@@ -293,16 +293,6 @@
             "size": 108450,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/Baubles-1.12-1.5.2.jar",
             "MD5": "944dec4ef3fbfd4d498d94a7047af201"
-          }
-        },
-        {
-          "id": "wayoftime.bloodmagic:bloodmagic:1.12.2-2.4.3-105@jar",
-          "name": "Blood Magic: Alchemical Wizardry",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7208594,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/BloodMagic-1.12.2-2.4.3-105.jar",
-            "MD5": "90f67913247c8cf549836d724efc87fc"
           }
         },
         {
@@ -333,16 +323,6 @@
             "size": 5535454,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/buildcraft-all-8-0-0.jar.jar",
             "MD5": "46b9656fe37ba8005e57d955e39799e2"
-          }
-        },
-        {
-          "id": "com.radixshock:classiccombat:1.0.0@jar",
-          "name": "Classic Combat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 56210,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/ClassicCombat-1.0.1.jar",
-            "MD5": "98c0ba7ffbd0a52d22f1b6d8444093bc"
           }
         },
         {
@@ -403,16 +383,6 @@
             "size": 108444,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/ElevatorMod-1.12.2-1.3.14.jar",
             "MD5": "3726325984b2f3d35ee284fcaeed21c1"
-          }
-        },
-        {
-          "id": "net.darkhax:eplus:5.0.176@jar",
-          "name": "Enchanting Plus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 142767,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/EnchantingPlus-1.12.2-5.0.176.jar",
-            "MD5": "36c4f27aa9b08f3a023beff927762cfc"
           }
         },
         {
@@ -531,8 +501,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 263258,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/InventoryTweaks-1.63.jar",
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/optionalon/InventoryTweaks-1.63.jar",
             "MD5": "1e2e33e5710394252abc4b014bc3dcbd"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -566,16 +539,6 @@
           }
         },
         {
-          "id": "mcjty.lostcities:lostcities:1.12-2.0.22@jar",
-          "name": "The Lost Cities",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 789743,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/lostcities-1.12-2.0.22.jar",
-            "MD5": "623dc6900248b3832dc35c3bb9a8552d"
-          }
-        },
-        {
           "id": "mod.lucky:lucky:7.5.0@jar",
           "name": "Lucky Block",
           "type": "ForgeMod",
@@ -583,16 +546,6 @@
             "size": 226534,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/lucky-block-forge-1.12.0-2.0.jar",
             "MD5": "916ef4f5ff4da22138445213db7a09f4"
-          }
-        },
-        {
-          "id": "stepsword.mahoutsukai:mahoutsukai:1.12.2-v1.19.55@jar",
-          "name": "Mahou Tsukai",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2337129,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/mahoutsukai-1.12.2-v1.19.56.jar",
-            "MD5": "ff530981f42e1f58eeea3421f4ffd781"
           }
         },
         {
@@ -653,16 +606,6 @@
             "size": 472464,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/Patchouli-1.0-23.6.jar",
             "MD5": "5450477c1ce7189c5ee11595d5e03a7c"
-          }
-        },
-        {
-          "id": "me.ichun.mods:portalgun:1.12.2-7.1.0@jar",
-          "name": "PortalGun",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1717073,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/PortalGun-1.12.2-7.1.0.jar",
-            "MD5": "2219e579132b53719ef21ea78934f4c3"
           }
         },
         {
@@ -841,8 +784,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1858803,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/Xaeros_Minimap_25.2.10_Forge_1.12.jar",
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/optionalon/Xaeros_Minimap_25.2.10_Forge_1.12.jar",
             "MD5": "664ee807d8517599112d63a5f6de5aab"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -853,16 +799,6 @@
             "size": 870623,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/XaerosWorldMap_1.39.12_Forge_1.12.jar",
             "MD5": "07612ebbe98e2c258650213e613d9068"
-          }
-        },
-        {
-          "id": "com.zenny3d.satext:zenny3d.saturationoverflow:1.1.1@jar",
-          "name": "SaturationOverflow",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 11782,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/zenny3d.saturationoverflow-1.1.1.jar",
-            "MD5": "713ac2882f4b59c3e33eeee7c7db16be"
           }
         },
         {
