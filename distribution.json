@@ -13,7 +13,7 @@
         "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
         "icon": "https://i.imgur.com/JaCYXZR.png",
         "version": "1.0.0",
-        "address": "26.193.254.44:25565",
+        "address": "4kzin.elgaehost.com.br",
         "minecraftVersion": "1.12.2",
         "discord": {
           "clientId": "1430314818786693120",
@@ -928,5 +928,6 @@
     }
   ]
 }
+
 
 
