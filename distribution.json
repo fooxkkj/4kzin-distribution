@@ -1,35 +1,25 @@
 {
   "version": "1.0.0",
-  "rss": "https://fooxkkj.github.io/4kzin-distribution/feed.xml",
+  "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
-      {
-        "id": "4kzin-1.12.2",
-        "name": "4kzin (Minecraft 1.12.2)",
-        "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-        "icon": "https://i.imgur.com/JaCYXZR.png",
-        "version": "1.0.0",
-        "address": "4kzin.elgaehost.com.br",
-        "minecraftVersion": "1.12.2",
-        "discord": {
-          "clientId": "1430314818786693120",
-          "shortId": "4kzin",
-          "smallImageKey": "minecraft",
-          "smallImageText": "4Kzin Launcher",
-          "largeImageKey": "large",
-          "largeImageText": "4Kzin Servidor Oficial"
-        },
-        "authlibInjector": false,
-        "authServer": null,
-        "serverAuth": [
-          "mojang",
-          "microsoft",
-          "offline"
-        ],
+    {
+      "id": "4kzin-1.12.2",
+      "name": "4kzin (Minecraft 1.12.2)",
+      "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "26.193.254.44:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
@@ -456,6 +446,16 @@
           }
         },
         {
+          "id": "com.mrcrayfish.furniture:cfm:6.3.2@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2439199,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/furniture-6.3.2-1.12.2.jar",
+            "MD5": "c337d9b9b5465ba6ac78a2ca9f3dbf7c"
+          }
+        },
+        {
           "id": "com.chocohead:gravisuite:3.1.1@jar",
           "name": "Gravitation Suite",
           "type": "ForgeMod",
@@ -553,6 +553,16 @@
             "size": 655406,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/jei_1.12.2-4.16.1.1013.jar",
             "MD5": "155469b1e6be853ba4b273044bc4a68e"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.6.2@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 183508,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/lootr-1.12.2-0.6.2.jar",
+            "MD5": "558c6e4a8600c62244c6c6264b4b70c8"
           }
         },
         {
@@ -716,6 +726,16 @@
           }
         },
         {
+          "id": "cofh.thermalinnovation:thermalinnovation:0.3.6.1@jar",
+          "name": "Thermal Innovation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 182379,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
+            "MD5": "320accf690ccc1c8a23679beb63fb615"
+          }
+        },
+        {
           "id": "org.tlauncher.skin.cape:tlauncher_custom_cape_skin:1.4@jar",
           "name": "TLSkinCape",
           "type": "ForgeMod",
@@ -776,6 +796,16 @@
           }
         },
         {
+          "id": "de.teamlapen.lib:vampirism:1.6.2@jar",
+          "name": "Vampirism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9399500,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/Vampirism-1.12.2-1.6.2.jar",
+            "MD5": "f107faf83a8618a491a8972b95d46a3d"
+          }
+        },
+        {
           "id": "mcp.mobius:waila:1.8.20@jar",
           "name": "Waila",
           "type": "ForgeMod",
@@ -816,6 +846,16 @@
           }
         },
         {
+          "id": "xaero.map:xaeroworldmap:1.39.12@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 870623,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/XaerosWorldMap_1.39.12_Forge_1.12.jar",
+            "MD5": "07612ebbe98e2c258650213e613d9068"
+          }
+        },
+        {
           "id": "com.zenny3d.satext:zenny3d.saturationoverflow:1.1.1@jar",
           "name": "SaturationOverflow",
           "type": "ForgeMod",
@@ -830,9 +870,9 @@
           "name": "mainmenu.json",
           "type": "File",
           "artifact": {
-            "size": 2389,
+            "size": 2398,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "a43abaace90fd51efb69c194cf2e5b96",
+            "MD5": "7a67ae78bed6981c105013efe04aa3a1",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
@@ -928,6 +968,3 @@
     }
   ]
 }
-
-
-
