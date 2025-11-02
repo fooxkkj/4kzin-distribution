@@ -1,26 +1,26 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
+  "rss": "https://fooxkkj.github.io/4kzin-distribution/feed.xml",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "1430314818786693120",
+    "smallImageText": "4Kzin Launcher",
+    "smallImageKey": "small"
   },
   "servers": [
     {
       "id": "4kzin-1.12.2",
       "name": "4kzin (Minecraft 1.12.2)",
-      "description": "4kzin Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-      "icon": null,
+      "description": "Servidor 4kzin rodando Minecraft 1.12.2 (Forge v14.23.5.2854)",
+      "icon": "https://i.imgur.com/47jHO7m.png",
       "version": "1.0.0",
-      "address": "4kzin.elgaehost.com.br",
+      "address": "4kzin.elgaehost.com.br:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "4kzin",
+        "largeImageText": "4Kzin Launcher",
+        "largeImageKey": "small"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -670,6 +670,19 @@
             "size": 2457427,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/OptiFine-1.12.2_HD_U_G5.jar",
             "MD5": "92a619d468d9576a531a7ca8908669e2"
+          }
+        },
+        {
+          "id": "org.orecruncher:orelib:1.12.2-3.6.0.1@jar",
+          "name": "OreLib Support Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 341728,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/optionalon/OreLib-1.12.2-3.6.0.1.jar",
+            "MD5": "00cce3b240365458adcad3e77782358a"
+          },
+          "required": {
+            "value": false
           }
         },
         {
