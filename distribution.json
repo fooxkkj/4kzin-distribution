@@ -559,33 +559,33 @@
           }
         },
         {
-          "id": "mekanism:mekanism:1.12.2-9.8.3.390@jar",
-          "name": "Mekanism",
+          "id": "mekanism:mekanism:9.12.12@jar",
+          "name": "Mekanism Community Edition",
           "type": "ForgeMod",
           "artifact": {
-            "size": 7863657,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/Mekanism-1.12.2-9.8.3.390.jar",
-            "MD5": "e622b8365b9a1190b3b6cc042854e870"
+            "size": 7881185,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/Mekanism-Community-Edition-1.12.2-9.12.12-Core.jar",
+            "MD5": "ef37e0fe23beb6def5699758e21e3bba"
           }
         },
         {
-          "id": "mekanism.generators:mekanismgenerators:1.12.2-9.8.3.390@jar",
-          "name": "Mekanism: Generators",
+          "id": "mekanism.generators:mekanismgenerators:9.12.12@jar",
+          "name": "Mekanism Community Edition: Generators",
           "type": "ForgeMod",
           "artifact": {
-            "size": 336364,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/MekanismGenerators-1.12.2-9.8.3.390.jar",
-            "MD5": "d75ddb11a6c1353b046c70d8904fe61e"
+            "size": 336400,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/Mekanism-Community-Edition-1.12.2-9.12.12-Generators.jar",
+            "MD5": "e3d82cb20c82a232bd172b7265240875"
           }
         },
         {
-          "id": "mekanism.tools:mekanismtools:1.12.2-9.8.3.390@jar",
-          "name": "Mekanism: Tools",
+          "id": "mekanism.tools:mekanismtools:9.12.12@jar",
+          "name": "Mekanism Community Edition: Tools",
           "type": "ForgeMod",
           "artifact": {
-            "size": 159785,
-            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/MekanismTools-1.12.2-9.8.3.390.jar",
-            "MD5": "0095f13a729ce5873319e36e29a5b5e1"
+            "size": 159844,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/Mekanism-Community-Edition-1.12.2-9.12.12-Tools.jar",
+            "MD5": "ddad8b08d0add0dbe1fc2c15c2e2703f"
           }
         },
         {
