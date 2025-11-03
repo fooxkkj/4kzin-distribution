@@ -342,12 +342,32 @@
           }
         },
         {
+          "id": "codechicken.chunkloader:chickenchunks:2.4.1.73@jar",
+          "name": "ChickenChunks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134368,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/ChickenChunks-1.12.2-2.4.1.73-universal.jar",
+            "MD5": "c930adfeaa59c7d846b440e11a101d97"
+          }
+        },
+        {
           "id": "codechicken.lib:codechickenlib:3.2.3.358@jar",
           "name": "CodeChicken Lib",
           "type": "ForgeMod",
           "artifact": {
             "size": 704330,
             "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/CodeChickenLib_1.12.2_3.2.3.358_universal.jar",
+            "MD5": "3b5e44db5ac96fb23a439590b6731a31"
+          }
+        },
+        {
+          "id": "codechicken.lib:codechickenlib:3.2.3.358@jar",
+          "name": "CodeChicken Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 704330,
+            "url": "http://177.91.224.38:8080/servers/4kzin-1.12.2/forgemods/required/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
             "MD5": "3b5e44db5ac96fb23a439590b6731a31"
           }
         },
