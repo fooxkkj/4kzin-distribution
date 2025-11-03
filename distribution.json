@@ -3,7 +3,7 @@
   "rss": "https://fooxkkj.github.io/4kzin-distribution/feed.xml",
   "discord": {
     "clientId": "1430314818786693120",
-    "smallImageText": "4Kzin Launcher",
+    "smallImageText": "Minecraft",
     "smallImageKey": "small"
   },
   "servers": [
@@ -1061,3 +1061,4 @@
     }
   ]
 }
+
