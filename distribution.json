@@ -1091,7 +1091,7 @@
                         "type": "VersionManifest",
                         "artifact": {
                             "size": 10789,
-                            "MD5": "f8ad81d96980cbb999a817a5665134ff",
+                            "MD5": "ee0275878540ffa13a760e75dea916d7",
                             "url": "http://177.91.224.38:8080/repo/versions/1.5.2-forge-7.8.1.737/1.5.2-Forge7.8.1.737.json"
                         }
                         }
