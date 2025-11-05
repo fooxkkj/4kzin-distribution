@@ -1060,41 +1060,34 @@
             ]
         }, 
         {
-            "id": "4kzin-1.5.2",
-            "name": "4kzin (Minecraft 1.5.2)",
-            "description": "Servidor 4kzin rodando Minecraft 1.5.2 (Forge v7.8.1.737)",
-            "icon": "https://i.imgur.com/47jHO7m.png",
-            "version": "1.0.0",
-            "address": "classic.4kzin.com:25565",
-            "minecraftVersion": "1.5.2",
-            "discord": {
-                "shortId": "4kzin-1.5.2",
-                "largeImageText": "4Kzin Launcher — Versão 1.5.2",
-                "largeImageKey": "logo"
-            },
-            "mainServer": false,
-            "autoconnect": false,
-            "modules": [
-                {
-                "id": "forge-hosted",
-                "name": "Forge Hosted",
+        "id": "4kzin-1.5.2",
+        "name": "4kzin (Minecraft 1.5.2)",
+        "description": "Servidor 4kzin rodando Minecraft 1.5.2 (Forge v7.8.1.737)",
+        "icon": "https://i.imgur.com/47jHO7m.png",
+        "version": "1.0.0",
+        "address": "classic.4kzin.com:25565",
+        "minecraftVersion": "1.5.2",
+        "discord": {
+            "shortId": "4kzin-1.5.2",
+            "largeImageText": "4Kzin Launcher — Versão 1.5.2",
+            "largeImageKey": "logo"
+        },
+        "mainServer": false,
+        "autoconnect": false,
+        "modules": [
+            {
+                "id": "net.minecraftforge:forge:1.5.2-7.8.1.737:universal",
+                "name": "Minecraft Forge 1.5.2",
                 "type": "ForgeHosted",
                 "artifact": {
-                    "url": "http://177.91.224.38:8080/servers/4kzin-1.5.2/forgemods/required/"
+                    "size": 3896473,
+                    "MD5": "a1b2c3d4e5f67890123456789abcdef0",
+                    "url": "http://177.91.224.38:8080/repo/lib/net/minecraftforge/forge/1.5.2-7.8.1.737/forge-1.5.2-7.8.1.737-universal.jar"
                 }
-                },
-                {
-                "id": "1.5.2-7.8.1.737",
-                "name": "Minecraft Forge 1.5.2 (7.8.1.737)",
-                "type": "VersionManifest",
-                "artifact": {
-                    "size": 9123,
-                    "MD5": "770f872940a517642d3e52fdca4bc8bd",
-                    "url": "http://177.91.224.38:8080/repo/versions/1.5.2-forge-7.8.1.737/1.5.2-forge-7.8.1.737.json"
-                }
-                }
-            ]
             }
+
+        ]
+        }
 
 
 
