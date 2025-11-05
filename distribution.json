@@ -1090,8 +1090,8 @@
                         "name": "Minecraft Forge (version.json)",
                         "type": "VersionManifest",
                         "artifact": {
-                            "size": 10789,
-                            "MD5": "745b7b7cb16155796a5d233bd40ed483",
+                            "size": 4740,
+                            "MD5": "f2e987935bb622215940e4261420e362",
                             "url": "http://177.91.224.38:8080/repo/versions/1.5.2-forge-7.8.1.737/1.5.2-forge-7.8.1.737.json"
                         }
                         }
@@ -1104,6 +1104,7 @@
 
   ]
 }
+
 
 
 
