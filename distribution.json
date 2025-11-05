@@ -1059,47 +1059,35 @@
                 }
             ]
         }, 
-        {
-            "id": "4kzin-1.5.2",
-            "name": "4Kzin Nostalgia (Minecraft 1.5.2)",
-            "description": "Versão clássica e nostálgica do 4Kzin rodando Forge 7.8.1.737 com os mods originais.",
-            "icon": "https://i.imgur.com/47jHO7m.png",
-            "version": "1.0.0",
-            "address": "classic.4kzin.com:25565",
-            "minecraftVersion": "1.5.2",
-            "discord": {
-                "shortId": "4kzin-1.5.2",
-                "largeImageText": "4Kzin Launcher — Nostalgia 1.5.2",
-                "largeImageKey": "logo"
-            },
-            "mainServer": false,
-            "autoconnect": false,
-            "modules": [
             {
-                "id": "net.minecraftforge:forge:1.5.2-7.8.1.737:universal",
-                "name": "Minecraft Forge 1.5.2",
-                "type": "ForgeHosted",
-                "artifact": {
-                    "size": 5422937,
-                    "MD5": "98a250cecf20ff5a2310f595d021fba8",
-                    "url": "http://177.91.224.38:8080/repo/lib/net/minecraftforge/forge/1.5.2-7.8.1.737/1.5.2-Forge7.8.1.737.jar"
-    },
-                    "subModules": [
-                        {
-                        "id": "1.5.2-7.8.1.737",
-                        "name": "Minecraft Forge (version.json)",
-                        "type": "VersionManifest",
+                "id": "4kzin-1.5.2",
+                "name": "4Kzin Nostalgia (Minecraft 1.5.2)",
+                "description": "Versão clássica e nostálgica do 4Kzin rodando Forge 7.8.1.737 com os mods originais.",
+                "icon": "https://i.imgur.com/47jHO7m.png",
+                "version": "1.0.0",
+                "address": "classic.4kzin.com:25565",
+                "minecraftVersion": "1.5.2",
+                "discord": {
+                    "shortId": "4kzin-1.5.2",
+                    "largeImageText": "4Kzin Launcher — Nostalgia 1.5.2",
+                    "largeImageKey": "logo"
+                },
+                "mainServer": false,
+                "autoconnect": false,
+                "modules": [
+                    {
+                        "id": "net.minecraftforge:forge:1.5.2-7.8.1.737:universal",
+                        "name": "Minecraft Forge 1.5.2",
+                        "type": "ForgeHosted",
                         "artifact": {
-                            "size": 10789,
-                            "MD5": "ee0275878540ffa13a760e75dea916d7",
-                            "url": "http://177.91.224.38:8080/repo/versions/1.5.2-forge-7.8.1.737/1.5.2-Forge7.8.1.737.json"
+                            "size": 5422937,
+                            "MD5": "98a250cecf20ff5a2310f595d021fba8",
+                            "url": "http://177.91.224.38:8080/repo/lib/net/minecraftforge/forge/1.5.2-7.8.1.737/1.5.2-Forge7.8.1.737.jar"
                         }
-                        }
-                    ]
                     }
-
-            ]
+                ]
             }
+
 
 
   ]
