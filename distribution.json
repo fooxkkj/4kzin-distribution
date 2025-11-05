@@ -1075,24 +1075,24 @@
             "mainServer": false,
             "autoconnect": false,
             "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.5.2-7.8.1.737:universal",
-                    "name": "Minecraft Forge 1.5.2",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 3896437,
-                        "MD5": "ea0aa5a84703b7d07ec0431c4e8745a3",
-                        "url": "http://177.91.224.38:8080/repo/lib/net/minecraftforge/forge/1.5.2-7.8.1.737/forge-1.5.2-7.8.1.737-universal.jar"
-                    },
+            {
+                "id": "net.minecraftforge:forge:1.5.2-7.8.1.737:universal",
+                "name": "Minecraft Forge 1.5.2",
+                "type": "ForgeHosted",
+                "artifact": {
+                    "size": 5422937,
+                    "MD5": "98a250cecf20ff5a2310f595d021fba8",
+                    "url": "http://177.91.224.38:8080/repo/lib/net/minecraftforge/forge/1.5.2-7.8.1.737/1.5.2-Forge7.8.1.737.jar"
+    },
                     "subModules": [
                         {
                         "id": "1.5.2-7.8.1.737",
                         "name": "Minecraft Forge (version.json)",
                         "type": "VersionManifest",
                         "artifact": {
-                            "size": 4740,
-                            "MD5": "f2e987935bb622215940e4261420e362",
-                            "url": "http://177.91.224.38:8080/repo/versions/1.5.2-forge-7.8.1.737/1.5.2-forge-7.8.1.737.json"
+                            "size": 10789,
+                            "MD5": "f8ad81d96980cbb999a817a5665134ff",
+                            "url": "http://177.91.224.38:8080/repo/versions/1.5.2-forge-7.8.1.737/1.5.2-Forge7.8.1.737.json"
                         }
                         }
                     ]
@@ -1104,7 +1104,3 @@
 
   ]
 }
-
-
-
-
