@@ -1059,25 +1059,27 @@
                 }
             ]
         }, 
-   {
-      "id": "4kzin-1.5.2",
-      "name": "4Kzin Nostalgia (Minecraft 1.5.2)",
-      "description": "Versão clássica e nostálgica do 4Kzin rodando Forge 7.8.1.738 com os mods originais.",
-      "icon": "https://i.imgur.com/47jHO7m.png",
-      "version": "1.0.0",
-      "address": "classic.4kzin.com:25565",
-      "minecraftVersion": "1.5.2",
-      "discord": {
-        "shortId": "4kzin-1.5.2",
-        "largeImageText": "4Kzin Launcher — Nostalgia 1.5.2",
-        "largeImageKey": "logo"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "forge": {
-        "version": "7.8.1.738"
-      },
-      "serverMetaPath": "servers/4kzin-1.5.2/servermeta.json"
-    }
+        {
+        "id": "4kzin-1.5.2",
+        "name": "4Kzin Nostalgia (Minecraft 1.5.2)",
+        "description": "Versão clássica e nostálgica do 4Kzin rodando Forge 7.8.1.738 com os mods originais.",
+        "icon": "https://i.imgur.com/47jHO7m.png",
+        "version": "1.0.0",
+        "address": "classic.4kzin.com:25565",
+        "minecraftVersion": "1.5.2",
+        "discord": {
+            "shortId": "4kzin-1.5.2",
+            "largeImageText": "4Kzin Launcher — Nostalgia 1.5.2",
+            "largeImageKey": "logo"
+        },
+        "mainServer": false,
+        "autoconnect": false,
+        "forge": {
+            "version": "7.8.1.738"
+        },
+        "serverMetaPath": "servers/4kzin-1.5.2/servermeta.json",
+        "modules": []
+        }
+
   ]
 }
